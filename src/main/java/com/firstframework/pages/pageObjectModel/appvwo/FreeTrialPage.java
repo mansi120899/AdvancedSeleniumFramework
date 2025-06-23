@@ -1,4 +1,4 @@
-package com.firstframework.pages.pageFactory.appvwo;
+package com.firstframework.pages.pageObjectModel.appvwo;
 
 public class FreeTrialPage {
 }
