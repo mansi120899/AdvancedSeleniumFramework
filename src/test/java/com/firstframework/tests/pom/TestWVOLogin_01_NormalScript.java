@@ -37,7 +37,7 @@ public class TestWVOLogin_01_NormalScript
     }
 
     @Owner("Mansi")
-    @Description("Verify that with valid creds,dashboard is loaded")
+    @Description("Verify that with valid creds,dashboard page is loaded")
     @Test
     public void testloginPositiveVWO()
     {
