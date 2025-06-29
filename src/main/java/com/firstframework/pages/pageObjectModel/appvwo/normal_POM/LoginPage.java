@@ -1,10 +1,8 @@
-package com.firstframework.pages.pageObjectModel.appvwo;
+package com.firstframework.pages.pageObjectModel.appvwo.normal_POM;
 
 import com.firstframework.utils.WaitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import static java.sql.DriverManager.getDriver;
 
 // Page Class
 public class LoginPage

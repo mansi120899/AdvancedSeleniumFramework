@@ -13,7 +13,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
-//import static com.thefirstframework.driver.DriverManager.getDriver;
+import static com.firstframework.driver.DriverManager.getDriver;
 
 public class WaitHelpers
 {
@@ -60,22 +60,22 @@ public class WaitHelpers
         return error_message;
     }
 
-//    public static WebElement presenceOfElement(By elementLocation) {
-//        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
-//    }
-//
-//    public static WebElement presenceOfElement(WebDriver driver,By elementLocation) {
-//        return new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
-//    }
-//
-//    public static WebElement visibilityOfElement(By elementLocation) {
-//        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
-//    }
-//    public static WebElement visibilityOfElement(WebElement elementLocation) {
-//        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf(elementLocation));
-//    }
-//
-//    public WebElement getElement(By key) {
-//        return getDriver().findElement(key);
-//    }
+    public static WebElement presenceOfElement(By elementLocation) {
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
+    }
+
+    public static WebElement presenceOfElement(WebDriver driver,By elementLocation) {
+        return new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
+    }
+
+    public static WebElement visibilityOfElement(By elementLocation) {
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
+    }
+    public static WebElement visibilityOfElement(WebElement elementLocation) {
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf(elementLocation));
+    }
+
+    public WebElement getElement(By key) {
+        return getDriver().findElement(key);
+    }
 }

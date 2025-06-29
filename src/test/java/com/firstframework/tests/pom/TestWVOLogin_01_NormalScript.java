@@ -1,7 +1,7 @@
 package com.firstframework.tests.pom;
 
-import com.firstframework.pages.pageObjectModel.appvwo.DashboardPage;
-import com.firstframework.pages.pageObjectModel.appvwo.LoginPage;
+import com.firstframework.pages.pageObjectModel.appvwo.normal_POM.DashboardPage;
+import com.firstframework.pages.pageObjectModel.appvwo.normal_POM.LoginPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;
